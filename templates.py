@@ -24,13 +24,12 @@ list_of_files = [
     f"{project_name}/pipeline/training_pipeline.py",
     f"{project_name}/utils/main_utils.py",
     f"{project_name}/utils/__init__.py",
+    "research/trials.ipynb",
     "templates/index.html",
     "app.py",
     "Dockerfile",
     "requirements.txt",
-    "setup.py",
-    "tests.py"
-]
+    "setup.py"]
 
 for filepath in list_of_files:
     filepath = Path(filepath)
